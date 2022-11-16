@@ -1,0 +1,25 @@
+/* Styling tabel header */
+.tabel-header > thead > tr > th {
+  vertical-align: middle;
+  text-align: center;
+  background: #dddddd;
+}
+
+/* Datatable remove sorting arrow icon */
+.dataTable > thead > tr > th[class*="sort"]:after {
+  content: "" !important;
+}
+.dataTable > thead > tr > th[class*="sort"]:before {
+  content: "" !important;
+}
+
+table.table-bordered {
+  border: 1px solid #cacaca;
+  margin-top: 20px;
+}
+table.table-bordered > thead > tr > th {
+  border: 1px solid #cacaca;
+}
+table.table-bordered > tbody > tr > td {
+  border: 1px solid #cacaca;
+}
